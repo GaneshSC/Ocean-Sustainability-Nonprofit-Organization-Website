@@ -1,0 +1,171 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f3f3;
+  }
+    /*
+    #wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 32px;
+    }
+
+    header{
+      background-color: #7be9de;
+      height: 150px;
+      padding: 4px;
+    }
+    
+    */
+
+    /*
+    .title{
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    */
+    header h1 { /*Big Title 'OSNO' */
+      text-align: center;
+      color: rgb(4, 115, 213);
+      line-height: 50px;
+      font-family: "monospace";
+    }
+    
+    .main_menu{ /*Tab background*/
+      padding: 5px 0 5px 0;
+      text-align: center;
+      line-height: 32px;
+      background-color: #358ccef3;
+    }
+
+    .main_menu li{
+      display: inline;
+      padding: 0 10px 0 10px;
+      font-size: 16px;
+    }
+
+    .main_menu a{ /*About Us:*/
+      text-decoration: none;
+      color: rgb(26, 227, 15);
+      padding: 8px;
+      font-variant: small-caps;
+    }
+
+    .main_menu a:hover 
+    {
+      color:hsl(44, 62%, 53%);
+    }
+
+    .button a{ /*????*/
+      text-decoration: none;
+      color: rgb(213, 8, 8);
+      padding: 8px;
+      font-variant: small-caps;
+    }
+
+    .text{
+      text-align: center;
+      position: fixed;
+    }
+/*
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    display: inline; 
+    }
+    /*--- navigation bar 
+    .navbar {
+    background:#4ab8e4;
+    }
+    .nav-link,
+    .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    }
+    .nav-link 
+    {
+    margin-right: 1em !important;
+    }
+    .nav-link:hover {
+    color: #000;
+    }
+    .navbar-collapse {
+    justify-content: flex-end;
+    }
+    */
+      .header {
+        background-image: url('images/water\ 2.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+    .description {
+        left: 50%;
+        position: absolute;
+        top: 40%;        transform: translate(-50%, -55%);
+        text-align: center;
+      }
+    .description h1 {
+        color: #6ab446;
+      }
+    .description p { /*All pgs - 2nd txt*/
+        color: hsl(23, 100%, 44%);
+        font-size: 1.3rem;
+        line-height: 1.5;
+      }
+
+      .description button {
+        border:1px solid #0e2e2d09;
+        background:#b86013;
+        border-radius: 0;
+        color:#fff;
+      }
+      .description button:hover {
+        border:1px solid #fff;
+        background:#fff;
+        color:#000;
+      }
+
+      .features {
+        margin: 4em auto;
+        padding: 1em;
+        position: relative;
+      }
+      .feature-title {
+        color: #333;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      .features img {
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+        margin-bottom: 16px;
+      }
+
+      .features .form-control,
+      .features input {
+       border-radius: 0;
+       }
+     .features .btn {
+       background-color: #589b37;
+      border: 1px solid #589b37;
+      color: rgb(255, 255, 255);
+      margin-top: 20px;
+      }
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }

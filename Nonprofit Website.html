@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <title>Ocean Sustainability Non-profit Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  
+</head>
+<!---->
+<script type="text/javascript">
+        
+	function returnDonation() {
+alert("Thank you for your donation! Your total is $");
+return true;
+}
+
+function returnContact() {
+alert("Thank you for reaching out! We'll get back to you as soon as possible!. :)");
+return true;}
+
+function Donate(){
+	document.getElementById("Donate".innerHTML = "Thank you for your donation! Your total is $")
+}
+
+</script>
+<!---->
+
+<body>
+	<!--
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#">Logo</a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Contact</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	-->
+<!--
+	<button class="tablink" onclick="openPage('Home', this, 'rgb(58, 174, 241')" id="defaultOpen">About Us</button>
+<button class="tablink" onclick="openPage('Projects', this, 'green')" >Projects</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('Donate', this, 'orange')">Donate</button>
+-->
+
+<!-- New Header-->
+<div id ="wrapper">
+	<header>
+		
+			<h1> Ocean Sustainability Nonprofit Organization</h1>
+	</header>
+	<nav>
+		<ul class="main_menu">
+			<button class="tablink" onclick="openPage('Home', this, 'rgb(201, 169, 101')" id="defaultOpen">About Us</button>
+			<button class="tablink" onclick="openPage('Projects', this, 'rgb(21, 145, 97')" >Projects</button>
+			<button class="tablink" onclick="openPage('Contact', this, 'pink')">Contact</button>
+			<button class="tablink" onclick="openPage('Donate', this, 'cyan')">Donate</button>
+			
+		</ul>
+	</nav>          
+</div>
+<div id="Home" class="tabcontent">
+	<header class="page-header header container-fluid">
+		<div class="description">
+			<h1>About Us:</h1>
+			<p >Our non-profit organization focuses on ocean sustainability with a goal to preserve, protect, and defend the oceans. We hope to spread awareness on how our oceans affect our every lives such as the air we breathe, food, climate regulation, and transportation.</p>
+		</div>
+	</header>
+</div>
+
+<div id="Projects" class="tabcontent">
+	<header class="page-header header container-fluid">
+		<div class="description">
+  		<h2>PROJECTS</h2>
+		  <img src= "Save the Whales pic.jpg" align = "left" height="150" width="150" >
+		  <p style="text-align:right;">Ocean State of Mind: Ocean State of Mind is based off in San Francisco focusing on the reduction of plastic pollution in Ocean Beach. The project encourages beach-goers or volunteers to throw away at least five pieces of trash before leaving the beach and any nearby waterways. As millions of tons of plastic end up in our oceans every year, small efforts will result in huge impacts in protecting our oceans from plastic pollution.</p> 
+		  <img src= "Save the Turtles pic.jpg" align = "left" height="150" width="150" >
+		  <p style="text-align:right;"> Blue Bio: The organization will focus on monitoring the biodiversity, health and growth of the reef system surrounding Monterey Bay. The volunteers will be gathering raw data through fish, invertebrate, and coral surveys while using scuba equipment. We have been supplying our projects with our donations and fundraisers. It'd mean a lot if you donated to our Nonprofit organization so we can continue our projects.</p> 
+		  <img src= "Save Ocean.jpg" align = "left" height="150" width="150" >
+		  <p style="text-align:right;"> Ocean Institute: Volunteers are needed to help us spread their marine passion through educating the general public and local outreach. The organization is located in Northern California and volunteers will be facilitating education sessions with students and  local communities. </p> 
+
+		</div>
+	</header>	
+</div>
+
+<div id="Contact" class="tabcontent">
+	<header class="page-header header container-fluid">
+		<div class="description">
+	<h3>Contact Us</h3>
+	<p>Get in touch, or swing by for a cup of coffee.</p>
+  <div class="container features">
+	  <div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		  <img src="Contact_Us.png" class="img-fluid">
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12"> 
+		  <h3 class="feature-title">Get in Touch!</h3>
+		  <div class="form-group">
+			<input type="text" class="form-control" placeholder="Name" name="">
+		  </div>
+		  <div class="form-group">
+			<input type="email" class="form-control" placeholder="Email Address" name="email">
+		  </div>
+		  <div class="form-group">
+			<textarea class="form-control" rows="4"></textarea>
+		  </div>
+		  <input type="submit" value="submit" onclick="return returnContact();" />
+		</div>
+	  </div> 
+	</div>
+</header>
+</div>
+
+<div id="Donate" class="tabcontent">
+	<header class="page-header header container-fluid">
+		<div class="description">
+  <h3>Donate</h3>
+  <div class="container features">
+	<div class="row">
+	  <div class="col-lg-4 col-md-4 col-sm-12">
+		<img src="Save Ocean.jpg" class="img-fluid">
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-sm-12">
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-sm-12"> 
+		  <!--wrapper--> 
+		<h3 class="feature-title">Your donation:</h3>
+		<div class="form-group">
+		  <input type="text" class="form-control" placeholder="Name" name="">
+		</div>
+		<div class="form-group">
+		  <input type="email" class="form-control" placeholder="Email Address" name="email">
+		</div>
+		<div class="form-group">
+			<input type="number"  placeholder="$$$" min="1" step="any" />
+		</div>
+		<input type="submit" value="submit" onclick="return returnDonation();" /> 
+	  </div>
+	</div> 
+</div>
+</header>
+  </div>
+</div>
+
+<!-- strawberries -->
+	<div class="container features">
+	<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+	<h3 class="feature-title">Who we are</h3>
+	<img src="" class="img-fluid">
+	<p >We are a nonprofit organization called "Ocean Sustainability Nonprofit". We stand for saving our beaches and oceans from all possible harm. This includes but helping our turtles, beaches, whales, fishes and more!</p></div>
+    </div>
+<!-- strawberries -->
+
+   <!-- 
+  <script>
+    var name; // donation in type string will be entered by user
+    amount = window.prompt("Please enter your donation amount here...");
+    document.writeln("<h1>You have donated $" + amount + ". Thank you for your donation!")
+  </script>
+   -->
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script> 
+<!--
+	</header>
+		<div class="container features">
+			<div class="row">
+			  <div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Help</h3>
+				<img src="SJSU pic.jpg" class="img-fluid">
+				<p>Hold</p>
+			  </div>
+			  <div class="col-lg-4 col-md-4 col-sm-12">
+				<h3 class="feature-title">Lorem ipsum</h3>
+				<img src="SJSU logo.jpg" class="img-fluid">
+				<p>Hold1</p>
+			  </div>
+			  <div class="col-lg-4 col-md-4 col-sm-12"> 
+				<h3 class="feature-title">Get in Touch!</h3>
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Name" name="">
+				</div>
+				<div class="form-group">
+				  <input type="email" class="form-control" placeholder="Email Address" name="email">
+				</div>
+				<div class="form-group">
+				  <textarea class="form-control" rows="4"></textarea>
+				</div>
+				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">   
+			  </div>
+			</div> 
+		  </div>
+		-->
+		  <footer class="page-footer">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+				<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+				<p>Spring 2021</p>
+				<p>Business 118W: Web Based Computing</p>
+			  </div>
+			  <div class="col-lg-4 col-md-4 col-sm-12">
+				<h6 class="text-uppercase font-weight-bold">Contact</h6>
+				<p>San Jose State University
+				<br/>Professor Subhankar Dhar
+				<br/>Project Creators: Samrat Yadav, Nikan Jafari, Samantha Duong, Ganesh Chendica</p>
+			  </div>
+			</div>
+			<div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+		  </footer>
+
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
+	
